@@ -14,30 +14,30 @@ function App() {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const surpriseImages: Record<number, string> = {
-    1: '/daily_surprises/surprise (1).jpg',
-    2: '/daily_surprises/surprise (2).jpg',
-    3: '/daily_surprises/surprise (3).jpg',
-    4: '/daily_surprises/surprise (4).jpg',
-    5: '/daily_surprises/surprise (5).jpg',
-    6: '/daily_surprises/surprise (6).jpg',
-    7: '/daily_surprises/surprise (7).jpg',
-    8: '/daily_surprises/surprise (8).jpg',
-    9: '/daily_surprises/surprise (9).jpg',
-    10: '/daily_surprises/surprise (10).jpg',
-    11: '/daily_surprises/surprise (11).jpg',
-    12: '/daily_surprises/surprise (12).jpg',
-    13: '/daily_surprises/surprise (13).jpg',
-    14: '/daily_surprises/surprise (14).jpg',
-    15: '/daily_surprises/surprise (15).jpg',
-    16: '/daily_surprises/surprise (16).jpg',
-    17: '/daily_surprises/surprise (17).jpg',
-    18: '/daily_surprises/surprise (18).jpg',
-    19: '/daily_surprises/surprise (19).jpg',
-    20: '/daily_surprises/surprise (20).jpg',
-    21: '/daily_surprises/surprise (21).jpg',
-    22: '/daily_surprises/surprise (22).jpg',
-    23: '/daily_surprises/surprise (23).jpg',
-    24: '/daily_surprises/surprise (24).jpg',
+    1: '/Countdown_website/daily_surprises/surprise (1).jpg',
+    2: '/Countdown_website/daily_surprises/surprise (2).jpg',
+    3: '/Countdown_website/daily_surprises/surprise (3).jpg',
+    4: '/Countdown_website/daily_surprises/surprise (4).jpg',
+    5: '/Countdown_website/daily_surprises/surprise (5).jpg',
+    6: '/Countdown_website/daily_surprises/surprise (6).jpg',
+    7: '/Countdown_website/daily_surprises/surprise (7).jpg',
+    8: '/Countdown_website/daily_surprises/surprise (8).jpg',
+    9: '/Countdown_website/daily_surprises/surprise (9).jpg',
+    10: '/Countdown_website/daily_surprises/surprise (10).jpg',
+    11: '/Countdown_website/daily_surprises/surprise (11).jpg',
+    12: '/Countdown_website/daily_surprises/surprise (12).jpg',
+    13: '/Countdown_website/daily_surprises/surprise (13).jpg',
+    14: '/Countdown_website/daily_surprises/surprise (14).jpg',
+    15: '/Countdown_website/daily_surprises/surprise (15).jpg',
+    16: '/Countdown_website/daily_surprises/surprise (16).jpg',
+    17: '/Countdown_website/daily_surprises/surprise (17).jpg',
+    18: '/Countdown_website/daily_surprises/surprise (18).jpg',
+    19: '/Countdown_website/daily_surprises/surprise (19).jpg',
+    20: '/Countdown_website/daily_surprises/surprise (20).jpg',
+    21: '/Countdown_website/daily_surprises/surprise (21).jpg',
+    22: '/Countdown_website/daily_surprises/surprise (22).jpg',
+    23: '/Countdown_website/daily_surprises/surprise (23).jpg',
+    24: '/Countdown_website/daily_surprises/surprise (24).jpg',
   };
 
   const dailyMessages = [
@@ -251,11 +251,10 @@ function App() {
         {/* Central image with enhanced heart glow */}
         <div className="w-full max-w-3xl flex justify-center mt-1">
           <div className="backdrop-blur-xl bg-gradient-to-br from-white/5 to-white/10 rounded-2xl p-0 border border-white border-opacity-20 shadow-2xl overflow-hidden relative">
-            {/* Enhanced heart glow effect */}
             <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 w-32 h-32 bg-red-400 rounded-full filter blur-3xl opacity-30 animate-pulse-slow"></div>
             
             <img
-              src="/reunion_final.png"
+              src="/Countdown_website/reunion_final.png"
               alt="Illustration of couple waiting for reunion"
               className="max-w-[300px] w-full h-auto object-contain relative z-10"
               style={{ display: 'block' }}
