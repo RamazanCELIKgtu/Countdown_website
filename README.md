@@ -11,7 +11,7 @@ Built with love and modern web technologies, this project serves as a reminder t
 
 You can view the live countdown here:
 
-**[https://ramazancelikgtu.github.io/Countdown-website/](https://ramazancelikgtu.github.io/Countdown-website/)**
+**[https://ramazancelikgtu.github.io/Countdown-website/](https://ramazancelikgtu.github.io/Countdown_website/)**
 *(Note: Link will be updated with a custom domain soon!)*
 
 ---
