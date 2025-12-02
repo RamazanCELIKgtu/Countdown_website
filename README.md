@@ -2,7 +2,7 @@
 
 ## 🌟 Overview
 
-This is a personal, dedicated website counting down every second until I see my amazing girlfriend, Dinara! 
+This is a personal, dedicated website counting down every second until I see my amazing girlfriend
 Built with love and modern web technologies, this project serves as a reminder that the wait is (almost) over.
 
 ---
